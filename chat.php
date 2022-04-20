@@ -21,7 +21,7 @@ echo'<i>Vous êtes ici : </i><a id="ici" href ="chat.php">Chat en ligne</a>';
       <title>Chat en ligne </title>
     </head>
     <body>
-    <div id="foot">
+   <div id="foot">
           <div id="footer">
             <br>
             <br>
