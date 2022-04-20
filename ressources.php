@@ -105,19 +105,19 @@ function masquer_div(id)
             <form id="contact_form" action="recuperationform.php" method="POST" enctype="multipart/form-data">
             <div class="row">
              <label class="required" for="email">Mail:</label><br />
-             <input id="email" name="mail" type="email" placeholder="Votre email...." size="40" required/><br />
+             <ion-icon id="iconmail" name="mail-open-outline"></ion-icon><input id="email" name="mail" type="email" placeholder="Votre email...." size="40" required/><br />
             </div>
             <div class="row">
               <label class="required" for="type">Type :</label><br />
-              <input id="type" name="type" type="text" placeholder="Framework,Logiciel,Librairie...." size="40" required/><br />
+              <ion-icon id="iconarrow" name="arrow-forward-outline" ></ion-icon><input id="type" name="type" type="text" placeholder="Framework,Logiciel,Librairie...." size="40" required/><br />
             </div>
             <div class="row">
               <label class="required" for="name">Nom de l'outil:</label><br />
-              <input id="text" name="nom" type="text" placeholder="Bootstrap, Visual Studio......" size="40" required/><br />
+              <ion-icon id="iconarrow" name="arrow-forward-outline" ></ion-icon><input id="text" name="nom" type="text" placeholder="Bootstrap, Visual Studio......" size="40" required/><br />
             </div>
              <div class="row">
               <label class="required" for="message">Description:</label><br />
-              <textarea id="message" name="message" placeholder="Votre message....." rows="7" cols="40" required></textarea><br />
+              <ion-icon id="iconmessage" name="chatbox-outline"></ion-icon><textarea id="message" name="message" placeholder="Votre message....." rows="7" cols="40" required></textarea><br />
             </div>
             <br>
             <button name="submit" id="envoyer">Envoyer <a href="envoyer.html" target="_blank"></a></button>

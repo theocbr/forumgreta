@@ -165,6 +165,28 @@ a {
   right: 6%;
   top: 11%;
 }
+#iconmail {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  right: 0%;
+}
+#iconarrow {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  right: 0%;
+}
+#iconmessage {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  right: 0%;
+  top: 10%;
+}
 #prenomfoot {
   /*  PRENOM dans le footer */
   font-size: 18px;
@@ -303,4 +325,6 @@ textarea {
   background-color: #a06cd5;
   width: 510px;
   height: 40px;
+  position: relative;
+  left: 2%;
 }
