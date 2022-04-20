@@ -196,8 +196,12 @@ hr {
 #divbienvenue {
   background-color: #e2cfea;
 }
-#pbienvenue {
+#h1bienvenue {
   /* message de bienvenue */
+  color: #a06cd5;
+}
+#pbienvenue {
+  /* message sous le h1 bienvenue */
   font-size: 20px;
 }
 #h2ressources {
