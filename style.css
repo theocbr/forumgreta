@@ -1,0 +1,215 @@
+/* BAR DE NAVIGATION */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  position: relative;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h2,
+h3,
+a {
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.45em;
+}
+
+.main-nav {
+  margin-top: 5px;
+}
+.logo a,
+.main-nav a {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  text-align: center;
+  display: block;
+}
+
+.main-nav a {
+  color: white;
+  font-size: 0.99em;
+}
+
+.main-nav a:hover {
+  color: black;
+}
+
+.header {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  background-color: #6247aa;
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
+}
+
+/* ================================= 
+  RESPONSIVE
+==================================== */
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+/* ------------------------------------------ */
+#ici {
+  /*  Message indication dans quel page on se trouve*/
+  color: #a06cd5;
+  font-weight: bold;
+}
+#footer {
+  /*  PIED DE PAGE SANS COPYRIGHT */
+  background-color: #6247aa;
+  position: relative;
+  color: white;
+}
+#foot {
+  /*  PIED DE PAGE COMPLET */
+  background-color: #6247aa;
+  position: relative;
+}
+#copyright {
+  /*  COPYRIGHT PIED DE PAGE */
+  text-align: center;
+  background-color: #6247aa;
+  color: white;
+}
+#labelmenufoot {
+  color: black;
+  font-weight: bold;
+}
+
+a:hover {
+  border: none;
+  overflow: visible;
+  color: black;
+}
+hr {
+  color: #a06cd5;
+}
+/*  PAGE RESSOURCES */
+#divbienvenue {
+  background-color: #e2cfea;
+}
+#pbienvenue {
+  /* message de bienvenue */
+  font-size: 20px;
+}
+#h2ressources {
+  /* h2 ex: "vous souhaitez contribuer à cet page" */
+  font-size: 28px;
+  font-weight: bold;
+  color: white;
+  background-color: #102b3f;
+}
+
+#container {
+  /*  div qui contient 3 div */
+  display: flex;
+
+  align-content: space-between;
+}
+#a_masquer {
+  /* première div */
+  background-color: #e2cfea;
+}
+#a_masquer2 {
+  /* deuxième div */
+  background-color: #e2cfea;
+}
+#a_masquer3 {
+  /* troisième div */
+  background-color: #e2cfea;
+}
+#a_masquer4 {
+  /* quatrième div */
+  background-color: #e2cfea;
+}
+#a_masquer5 {
+  /* cinquième div */
+  background-color: #e2cfea;
+}
+#btnmasquer {
+  /* Bouton qui montre les divs masqués */
+  border-radius: 10%;
+  background-color: #a06cd5;
+  color: white;
+  width: 187px;
+  height: 68px;
+  font-size: 20px;
+}
+#btnmasquer:hover {
+  /* quand le curseur passe sur les boutons */
+  background-color: #e2cfea;
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 500ms;
+}
+#pdiv {
+  /*  titre dans les divs cachés */
+  color: #102b3f;
+  font-size: 19px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#pcontribution {
+  color: #102b3f;
+  font-size: 23px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+#form {
+  /* div du formulaire de contact */
+  position: relative;
+  margin: 35px auto 0;
+  left: 50px;
+  width: 2100px;
+}
+#containerform {
+  /*  div qui contient la div du formulaire de contact */
+  background-color: #e2cfea;
+}
+label {
+  font-size: 27px;
+  color: #102b3f;
+}
+input,
+textarea {
+  height: 60px;
+  font-size: 22px;
+  border-width: 2px;
+  border-color: #102b3f;
+}
+#envoyer {
+  /*  bouton du formulaire de contact */
+  border-color: #102b3f;
+  border-width: 2px;
+  color: white;
+  background-color: #a06cd5;
+  width: 510px;
+  height: 40px;
+}
