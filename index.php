@@ -25,19 +25,44 @@ echo'<i>Vous êtes ici : </i><a id="ici" href ="index.php">Acceuil du forum</a>'
       <div id="foot">
           <div id="footer">
             <br>
-            <br>
+            <br><div id="inlineblock">
             <ul id="footnav" class="foot-nav">
               <label id="labelmenufoot">MENU DE NAVIGATION</label>
-              <li><a href="index.php">Acceuil</a></li>
-              <li><a href="ressources.php">Ressources</a></li>
-              <li><a href="chat.php">Chat</a></li>
+              <br>
+              <li id="lifoot"><a href="index.php">Acceuil</a></li>
+              <li id="lifoot"><a href="ressources.php">Ressources</a></li>
+              <li id="lifoot"><a href="chat.php">Chat</a></li>
             </ul>
+            <div id="options">
+            <ul class="foot-nav">
+            <label id="labelmenufoot">OPTIONS</label>
+            <br>
+              <li id="lifoot"><a href="">Inscription</a></li>
+              <li id="lifoot"><a href="">Connexion</a></li>
+              <li id="lifoot"><a href="">Mon profil</a></li>
+            </ul>
+            </div>
+            <div id="reseaux">
+            <ul class="foot-nav">
+            <label id="labelmenufoot">Réseaux</label>
+            <li><p id="prenomfoot">Théo : </p><a href="https://github.com/theocbr"><ion-icon id="iconfootgithub" name="logo-github"></a><a href=""> </ion-icon> <ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon></a></li>
+              <li><p id="prenomfoot">Stanislas :</p><a href="https://github.com/Smithleystan"> <ion-icon id="iconfootgithub" name="logo-github"></a><a href=""></ion-icon> <ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon></a></li>
+            </ul>
+            </div>
+            <div id="search">
+            <label id="labelmenufoot">Rechercher</label>
+            <br>
+            <input type="search" id="search">
+            </div>
+            </div>
             <br>
             <br>
           </div>
           <hr>
-          <p id="copyright">Copyright © Greta  - All rights reserved </p>
+          <p id="copyright">Copyright © - 2022 All rights reserved By Théo & Stanislas </p>
           <br>
           </div>
+          <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+          <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
         </body>
         </html>
