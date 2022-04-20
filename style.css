@@ -92,7 +92,28 @@ a {
   position: relative;
 }
 #footnav {
+  /* balise <ul> du menu de navigation  dans le footer */
   margin-top: 5px;
+  position: relative;
+  left: 7%;
+}
+#search {
+  /* div de l'element de recherche dans le footer */
+  position: relative;
+  right: 5%;
+}
+#btnrechercher {
+  /*  Bouton rechercher de l'element search dans le footer */
+  width: 110px;
+  height: 57px;
+  background-color: #a06cd5;
+  color: white;
+}
+#btnrechercher:hover {
+  /*  Bouton rechercher de l'element search dans le footer quand on passe dessus*/
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 500ms;
 }
 #inlineblock {
   /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */

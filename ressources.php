@@ -154,9 +154,9 @@ function masquer_div(id)
             </ul>
             </div>
             <div id="search">
-            <label id="labelmenufoot">Rechercher</label>
+            <label id="labelmenufoot">Rechercher :</label>
             <br>
-            <input type="search" id="search">
+            <input type="search" id="search" placeholder="Recherche...." required><button id="btnrechercher" >Rechercher</button>
             </div>
             </div>
             <br>
