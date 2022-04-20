@@ -204,7 +204,7 @@ hr {
   /*  div qui contient 3 div */
   display: flex;
 
-  align-content: space-between;
+  justify-content: space-between;
 }
 #a_masquer {
   /* première div */
