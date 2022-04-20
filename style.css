@@ -157,6 +157,14 @@ a {
   transition-duration: 500ms;
   color: white;
 }
+#iconfootsearch {
+  /* ICON github dans le footer */
+  font-size: 58px;
+  color: #a06cd5;
+  position: relative;
+  right: 6%;
+  top: 11%;
+}
 #prenomfoot {
   /*  PRENOM dans le footer */
   font-size: 18px;
@@ -203,8 +211,7 @@ hr {
 #container {
   /*  div qui contient 3 div */
   display: flex;
-
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 #a_masquer {
   /* première div */
