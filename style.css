@@ -92,12 +92,7 @@ a {
   background-color: #6247aa;
   position: relative;
 }
-#footnav {
-  position: absolute;
-  display: none;
-  right: 32px;
-  top: 0;
-}
+
 #copyright {
   /*  COPYRIGHT PIED DE PAGE */
   text-align: center;
@@ -167,6 +162,7 @@ hr {
   width: 187px;
   height: 68px;
   font-size: 20px;
+  box-shadow: inset 9px 5px 5px #a06cd5;
 }
 #btnmasquer:hover {
   /* quand le curseur passe sur les boutons */
