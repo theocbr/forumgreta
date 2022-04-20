@@ -131,30 +131,30 @@ function masquer_div(id)
             <br>
             <br><div id="inlineblock">
             <ul id="footnav" class="foot-nav">
-              <label id="labelmenufoot">MENU DE NAVIGATION</label>
+              <label id="labelmenufoot">MENU DE NAVIGATION</label><br />
               <br>
-              <li id="lifoot"><a href="index.php">Acceuil</a></li>
-              <li id="lifoot"><a href="ressources.php">Ressources</a></li>
+              <li id="lifoot"><a href="index.php">Acceuil</a></li><br />
+              <li id="lifoot"><a href="ressources.php">Ressources</a></li><br />
               <li id="lifoot"><a href="chat.php">Chat</a></li>
             </ul>
             <div id="options">
             <ul class="foot-nav">
-            <label id="labelmenufoot">OPTIONS</label>
+            <label id="labelmenufoot">OPTIONS</label><br />
             <br>
-              <li id="lifoot"><a href="">Inscription</a></li>
-              <li id="lifoot"><a href="">Connexion</a></li>
+              <li id="lifoot"><a href="">Inscription</a></li><br/>
+              <li id="lifoot"><a href="">Connexion</a></li><br />
               <li id="lifoot"><a href="">Mon profil</a></li>
             </ul>
             </div>
             <div id="reseaux">
             <ul class="foot-nav">
             <label id="labelmenufoot">Réseaux</label>
-            <li><p id="prenomfoot">Théo : </p><a href="https://github.com/theocbr"><ion-icon id="iconfootgithub" name="logo-github"></a><a href=""> </ion-icon> <ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon></a></li>
-              <li><p id="prenomfoot">Stanislas :</p><a href="https://github.com/Smithleystan"> <ion-icon id="iconfootgithub" name="logo-github"></a><a href=""></ion-icon> <ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon></a></li>
+            <li><p id="prenomfoot">Théo : </p><a href="https://github.com/theocbr"><ion-icon id="iconfootgithub" name="logo-github"></ion-icon> &nbsp </a><a href=""><ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon>&nbsp&nbsp</a><a href="https://basicforcsgo.com/"><ion-icon id="iconfootweb" name="globe-outline"></ion-icon>&nbsp</a></li>
+              <li><p id="prenomfoot">Stanislas :</p><a href="https://github.com/Smithleystan"> <ion-icon id="iconfootgithub" name="logo-github"></ion-icon> &nbsp</a><a href=""><ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon>&nbsp&nbsp</a><a href=""><ion-icon id="iconfootweb" name="globe-outline"></ion-icon>&nbsp</a></li>
             </ul>
             </div>
             <div id="search">
-            <label id="labelmenufoot">Rechercher :</label>
+            <label id="labelmenufoot">Rechercher :</label><br />
             <br>
             <input type="search" id="search" placeholder="Recherche...." required><button id="btnrechercher" >Rechercher</button>
             </div>

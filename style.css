@@ -114,6 +114,8 @@ a {
   transform: scale(1.1);
   transition-property: transform;
   transition-duration: 500ms;
+  background-color: #e2cfea;
+  color: black;
 }
 #inlineblock {
   /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */
@@ -125,9 +127,35 @@ a {
   font-size: 25px;
   color: #0e76a8;
 }
+#iconfootlkdn:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: white;
+}
 #iconfootgithub {
   /* ICON github dans le footer */
   font-size: 25px;
+}
+#iconfootgithub:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: black;
+}
+#iconfootweb {
+  /* ICON github dans le footer */
+  font-size: 25px;
+  color: black;
+}
+#iconfootweb:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: white;
 }
 #prenomfoot {
   /*  PRENOM dans le footer */
