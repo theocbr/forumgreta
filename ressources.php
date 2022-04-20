@@ -132,6 +132,7 @@ function masquer_div(id)
             <br>
             <ul id="footnav" class="foot-nav">
               <label id="labelmenufoot">MENU DE NAVIGATION</label>
+              <br>
               <li><a href="index.php">Acceuil</a></li>
               <li><a href="ressources.php">Ressources</a></li>
               <li><a href="chat.php">Chat</a></li>

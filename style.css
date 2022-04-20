@@ -92,6 +92,12 @@ a {
   background-color: #6247aa;
   position: relative;
 }
+#footnav {
+  position: absolute;
+  display: none;
+  right: 32px;
+  top: 0;
+}
 #copyright {
   /*  COPYRIGHT PIED DE PAGE */
   text-align: center;
