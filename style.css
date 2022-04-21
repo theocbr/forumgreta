@@ -183,9 +183,6 @@ a {
   /* ICON github dans le footer */
   font-size: 28px;
   color: #a06cd5;
-  position: relative;
-  right: 0%;
-  top: 10%;
 }
 #prenomfoot {
   /*  PRENOM dans le footer */
@@ -199,8 +196,10 @@ a {
   color: white;
 }
 #labelmenufoot {
-  color: black;
-  font-weight: bold;
+  /* LABEL dans le FOOTER */
+  letter-spacing: 1px;
+  color: #a06cd5;
+  font-size: 23px;
 }
 #lifoot {
   /*  balise <li> dans le footer */
@@ -277,11 +276,6 @@ hr {
   transition-duration: 500ms;
   box-shadow: 0 0 1em #e2cfea;
 }
-#labelmenufoot {
-  /* LABEL dans le FOOTER */
-  letter-spacing: 1px;
-  color: #a06cd5;
-}
 #pdiv {
   /*  titre dans les divs cachés */
   color: #102b3f;
@@ -306,13 +300,16 @@ hr {
   /*  div qui contient la div du formulaire de contact */
   background-color: #e2cfea;
 }
-label {
-  font-size: 27px;
-  color: #102b3f;
-}
-input,
-textarea {
+input {
+  /* Input du formulaire */
   height: 60px;
+  font-size: 22px;
+  border-width: 2px;
+  border-color: #102b3f;
+}
+textarea {
+  /*  "Message" dans le formulaire */
+  height: 110px;
   font-size: 22px;
   border-width: 2px;
   border-color: #102b3f;
@@ -327,4 +324,17 @@ textarea {
   height: 40px;
   position: relative;
   left: 2%;
+}
+#envoyer:hover {
+  /*  bouton du formulaire de contact quand on passe le curseur dessus*/
+  scale: 1.2;
+  transition-property: transform;
+  transition-duration: 400ms;
+}
+.required {
+  /*  Label du formulaire */
+  font-size: 27px;
+  color: #102b3f;
+  position: relative;
+  right: 55%;
 }
