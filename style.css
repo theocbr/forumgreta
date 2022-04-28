@@ -216,7 +216,52 @@ a:hover {
 hr {
   color: #a06cd5;
 }
-/*  PAGE RESSOURCES */
+/*  PAGE INDEX !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! */
+#titreform {
+  color: #102b3f;
+  font-weight: bold;
+  font-size: 21px;
+  text-decoration: underline;
+}
+#formdiv {
+  color: #102b3f;
+  font-weight: bold;
+  background-color: #e2cfea;
+  width: 38%;
+}
+#inputco {
+  /* INPUT du formulaire de connexion à l'espace membre  */
+  width: 180px;
+  height: 40px;
+}
+
+#btnconnexion {
+  /* Bouton de connexion du formulaire de connexion à l'espace membre  */
+  color: white;
+  background-color: #a06cd5;
+  height: 40px;
+}
+#btnconnexion:hover {
+  /* Bouton de connexion du formulaire de connexion à l'espace membre quand on passe dessus  */
+  background-color: #e2cfea;
+  transform: scale(0.9);
+}
+#forminscrire {
+  /* Bouton d'inscription sous le formulaire de connexion à l'espace membre */
+  color: white;
+  font-weight: bold;
+  background-color: #a06cd5;
+  border-color: black;
+  border-width: 2px;
+}
+#forminscrire:hover {
+  /* Bouton d'inscription sous le formulaire de connexion à l'espace membre */
+  background-color: #102b3f;
+  border-color: white;
+  border-width: 2px;
+  transform: scale(0.9);
+}
+/*  PAGE RESSOURCES **************************************************************** */
 #divbienvenue {
   background-color: #e2cfea;
 }

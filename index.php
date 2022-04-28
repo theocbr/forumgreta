@@ -21,7 +21,41 @@ echo'<i>Vous êtes ici : </i><a id="ici" href ="index.php">Acceuil du forum</a>'
       <title>FORUM</title>
     </head>
       <body>
+        <br>
+        <div id="formdiv">
+      <p id="titreform">Connexion à l'espace membre :</p>
+<form action="index.php" method="post">
+Pseudo : <input id="inputco" type="text" name="pseudo" value="<?php if (isset($_POST['pseudo'])) echo htmlentities(trim($_POST['pseudo'])); ?>">
+Mot de passe : <input id="inputco" type="password" name="pass" value="<?php if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass'])); ?>">
+<input type="submit" id="btnconnexion" name="connexion" value="Connexion">
+</form>
+<button id="forminscrire" href="">Vous inscrire</button>
+<?php
+if (isset($erreur)) echo '<br /><br />',$erreur;
+?>
+</div>
+
+
       <h1>Forum</h1>
+      <!-- A REMPLACER DANS LE FUTUR -->
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
       <div id="foot">
           <div id="footer">
             <br>
