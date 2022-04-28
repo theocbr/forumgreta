@@ -1,0 +1,10 @@
+Créer une page html   
+Stylisé une page html avec du CSS
+Animer une page html avec du Javascript
+Création d'un formulaire de contact 
+Création d'une base de donnée
+Création d'un espace membre ( connexion/deconnexion / inscription )
+Utilisation des cookies ( pour la connexion)
+Crypter un mot de passe
+Creation d'un chat en direct
+Appelez une API et afficher ses données en les limitant ou non
