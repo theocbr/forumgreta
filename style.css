@@ -183,6 +183,8 @@ a {
   /* ICON github dans le footer */
   font-size: 28px;
   color: #a06cd5;
+  position: relative;
+  bottom: 95%;
 }
 #prenomfoot {
   /*  PRENOM dans le footer */
@@ -199,7 +201,8 @@ a {
   /* LABEL dans le FOOTER */
   letter-spacing: 1px;
   color: #a06cd5;
-  font-size: 23px;
+  font-size: 29px;
+  font-weight: bold;
 }
 #lifoot {
   /*  balise <li> dans le footer */
@@ -309,7 +312,7 @@ input {
 }
 textarea {
   /*  "Message" dans le formulaire */
-  height: 110px;
+  height: 190px;
   font-size: 22px;
   border-width: 2px;
   border-color: #102b3f;
@@ -327,7 +330,9 @@ textarea {
 }
 #envoyer:hover {
   /*  bouton du formulaire de contact quand on passe le curseur dessus*/
-  scale: 1.2;
+  background-color: #e2cfea;
+  color: black;
+  transform: scale(0.9);
   transition-property: transform;
   transition-duration: 400ms;
 }
@@ -336,5 +341,5 @@ textarea {
   font-size: 27px;
   color: #102b3f;
   position: relative;
-  right: 55%;
+  left: 28px;
 }
