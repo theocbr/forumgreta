@@ -156,7 +156,7 @@ function masquer_div(id)
             </div>
             <div id="search">
             <br>
-            <ion-icon id="iconfootsearch" name="search-circle-outline"></ion-icon><input type="search" id="search" placeholder="Search...." required><button id="btnrechercher" >Rechercher</button>
+            <ion-icon id="iconfootsearch" name="search-circle-outline"></ion-icon><input type="search" id="search" placeholder="Search...." required><button id="btnrechercher" ><ion-icon id="iconfootclick" name="navigate-outline"></ion-icon></button>
             </div>
             </div>
             <br>

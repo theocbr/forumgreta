@@ -104,10 +104,12 @@ a {
 }
 #btnrechercher {
   /*  Bouton rechercher de l'element search dans le footer */
-  width: 110px;
+  width: 112px;
   height: 57px;
   background-color: #a06cd5;
   color: white;
+  position: relative;
+  top: 7px;
 }
 #btnrechercher:hover {
   /*  Bouton rechercher de l'element search dans le footer quand on passe dessus*/
@@ -115,7 +117,6 @@ a {
   transition-property: transform;
   transition-duration: 500ms;
   background-color: #e2cfea;
-  color: black;
 }
 #inlineblock {
   /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */
@@ -164,6 +165,17 @@ a {
   position: relative;
   right: 6%;
   top: 11%;
+}
+#iconfootclick {
+  /* ICON click dans le footer */
+  font-size: 28px;
+  color: white;
+  position: relative;
+}
+#iconfootclick:hover {
+  /* ICON click dans le footer  quand on passe dessus*/
+
+  color: #a06cd5;
 }
 #iconmail {
   /* ICON github dans le footer */
