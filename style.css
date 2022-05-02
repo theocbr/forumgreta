@@ -41,7 +41,7 @@ a {
 }
 
 .main-nav a:hover {
-  color: black;
+  color: #e2cfea;
 }
 
 .header {
@@ -202,7 +202,7 @@ a {
 a:hover {
   border: none;
   overflow: visible;
-  color: black;
+  color: #e2cfea;
 }
 hr {
   color: #a06cd5;
@@ -253,11 +253,9 @@ hr {
   transform: scale(0.9);
 }
 
-#psites {
-  color: #a06cd5;
-}
-#fram {
-  color: black;
+#h1blog {
+  /* titre blog dans la page index */
+  color: #102b3f;
 }
 .card-container {
   /*  Div qui contient les cartes */
@@ -272,7 +270,7 @@ hr {
   /* Carte */
   height: 30rem;
   width: 21rem;
-  background-color: #e2cfea;
+  background-color: #a06cd5;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
@@ -304,7 +302,10 @@ hr {
   font-size: large;
   padding: 0 0.5rem;
 }
-#pcardtitre {
+#acardtitre > a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: black;
 }
 /*  PAGE RESSOURCES **************************************************************** */
 #divbienvenue {
@@ -376,7 +377,16 @@ hr {
   font-weight: bold;
   text-decoration: underline;
 }
+#psites {
+  /* <p> dans les divs cachés  */
+  color: #a06cd5;
+}
+#fram {
+  /* <b> dans les divs cachés  */
+  color: black;
+}
 #pcontribu {
+  /* <p> au dessus du titre "contribution"  */
   font-size: 20px;
 }
 #pcontribution {

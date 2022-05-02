@@ -37,14 +37,15 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
 
       <br />
       <br />
-      <h1>Blog</h1>
+      <h1 id="h1blog">Blog</h1>
       <hr>
+      <br />
       <!-- A REMPLACER DANS LE FUTUR -->
       <ul class='card-container'>
       <li class='card'>
         <img class="img-card" src="./assets/img/boxshadow.PNG">
       <div class='text-card-container'>
-        <p id="pcardtitre">Cours CSS : Box-Shadow</p>
+        <a href="./cours/box-shadow.html" id="pcardtitre">Cours CSS : Box-Shadow</a>
       </li>
       <li class='card'>
       <div class='text-card-container'>
@@ -103,7 +104,6 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
             </ul>
             </div>
             <div id="search">
-            <label id="labelmenufoot">Rechercher :</label><br />
             <br>
             <ion-icon id="iconfootsearch" name="search-circle-outline"></ion-icon><input type="search" id="search" placeholder="Search...." required><button id="btnrechercher" ><ion-icon id="iconfootclick" name="navigate-outline"></ion-icon></button>
             </div>
