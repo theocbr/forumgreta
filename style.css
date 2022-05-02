@@ -53,27 +53,6 @@ a {
   box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.75);
 }
 
-/* ================================= 
-  RESPONSIVE
-==================================== */
-
-@media (min-width: 769px) {
-  .header,
-  .main-nav {
-    display: flex;
-  }
-  .header {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-@media (min-width: 1025px) {
-  .header {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 /* ------------------------------------------ */
 #ici {
   /*  Message indication dans quel page on se trouve*/
@@ -273,6 +252,54 @@ hr {
   border-width: 2px;
   transform: scale(0.9);
 }
+
+#psites {
+  color: #a06cd5;
+}
+#fram {
+  color: black;
+}
+.card-container {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+/*c'est pour gérer l'affichage des cartes des regions*/
+.card {
+  height: 30rem;
+  width: 21rem;
+  background-color: #e2cfea;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+  position: relative;
+
+  box-shadow: 5px 5px 0.6em gray, -5px -5px 0.6em gray;
+}
+
+.card:hover {
+  transform: scale(1.1);
+}
+
+.card .img-card {
+  height: 80%;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.text-card-container {
+  display: flex;
+  column-gap: 4rem;
+  /* justify-content: space-around; */
+  margin-bottom: 2rem;
+  font-size: large;
+  padding: 0 0.5rem;
+}
 /*  PAGE RESSOURCES **************************************************************** */
 #divbienvenue {
   background-color: #e2cfea;
@@ -343,12 +370,17 @@ hr {
   font-weight: bold;
   text-decoration: underline;
 }
+#pcontribu {
+  font-size: 20px;
+}
 #pcontribution {
+  /*  titre du formulaire "contribution"*/
   color: #102b3f;
   font-size: 23px;
   font-weight: bold;
   text-decoration: underline;
 }
+
 #form {
   /* div du formulaire de contact */
   position: relative;
@@ -383,7 +415,7 @@ textarea {
   width: 510px;
   height: 40px;
   position: relative;
-  left: 2%;
+  left: 28px;
 }
 #envoyer:hover {
   /*  bouton du formulaire de contact quand on passe le curseur dessus*/
@@ -399,4 +431,26 @@ textarea {
   color: #102b3f;
   position: relative;
   left: 28px;
+}
+
+/* ================================= 
+  RESPONSIVE
+==================================== */
+
+@media (min-width: 769px) {
+  .header,
+  .main-nav {
+    display: flex;
+  }
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }

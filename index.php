@@ -35,9 +35,26 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
 ?>
 </div>
 
-
-      <h1>Forum</h1>
+      <br />
+      <br />
+      <h1>Blog</h1>
+      <hr>
       <!-- A REMPLACER DANS LE FUTUR -->
+      <ul class='card-container'>
+      <li class='card'>
+      <div class='text-card-container'>
+      </li>
+      <li class='card'>
+      <div class='text-card-container'>
+      </li>
+      <li class='card'>
+      <div class='text-card-container'>
+      </li>
+      <li class='card'>
+      <div class='text-card-container'>
+      </li>
+      
+      </ul>
       <br>
       <br>
       <br>

@@ -61,45 +61,46 @@ function masquer_div(id)
           <br>
           <div id="a_masquer" style="display:none">
           <br>
-          <p id="pdiv">Frameworks</p>
-            <p id="psites"><b>React.js & Angular & Node.js & Vue.js & jQUERY & Next.js : </b> framework Javascript | <b>Bootstrap & Pure.css : </b> framework CSS  |
-            <b>Cake.php & Symfony & Laravel : </b> framework PHP</p>
+          <p id="pdiv">Frameworks/Librairies</p>
+            <p id="psites"><b id="fram">React.js & Angular & Node.js & Vue.js & jQUERY & Next.js & Chart.js: </b> Javascript | <b  id="fram">Bootstrap & Pure.css : </b> CSS  |
+            <b id="fram">Cake.php & Symfony & Laravel : </b> PHP</p>
            <br>
           </div>
           <div id="a_masquer2" style="display:none">
           <br>
           <p id="pdiv">Outils Web</p>
-            <p id="psites"><b>Codepen: </b> Librairies communautaires | <b>Cssgradient: </b> Générateur de couleur | <b>uiGradient: </b> Générateur de dégradés de couleurs 
-          | <b>Coolors: </b> Générateur de combinaison de couleurs | <b>Unsplash & Pexels: </b> Librairie de photos libre de droit </p>
-            <p id="psites"><b>Compressor: </b> Compresseur d'images | <b>gtmetrix: </b> Test la vitesse chargement d'un site | 
-            <b>fonts.google: </b> Librairie de polices d'écriture | <b>Ionic.io: </b> Librairie d'icons | <b>Photopea: </b> Redimensionner des photos | 
-            <b>Figma: </b> Maquette </p>
+            <p id="psites"><b id="fram">Codepen: </b> Librairies communautaires | <b id="fram">Cssgradient: </b> Générateur de couleur | <b id="fram">uiGradient: </b> Générateur de dégradés de couleurs 
+          | <b id="fram">Coolors: </b> Générateur de combinaison de couleurs | <b id="fram">Unsplash & Pexels: </b> Librairie de photos libre de droit </p>
+            <p id="psites"><b id="fram">Compressor: </b> Compresseur d'images | <b id="fram">gtmetrix: </b> Test la vitesse chargement d'un site | 
+            <b id="fram">fonts.google: </b> Librairie de polices d'écriture | <b id="fram">Ionic.io: </b> Librairie d'icons | <b id="fram">Photopea: </b> Redimensionner des photos | 
+            <b id="fram">Figma: </b> Maquette </p>
             <br>
           </div>
           <div id="a_masquer3" style="display:none">
           <br>
           <p id="pdiv">Documentations</p>
-            <p id="psites"><b>Openclassroom: </b> site formation gratuite | <b>StackOverflow: </b> Forum d'entraides | 
-            <b>MDN Web Docs: </b> docs & ressources | <b>Developpez.com: </b> Forum d'entraides | <b>Grafikart: </b> tutos/exos/forum/docs </p>
+            <p id="psites"><b id="fram">Openclassroom: </b> site formation gratuite | <b id="fram">StackOverflow: </b> Forum d'entraides | 
+            <b id="fram">MDN Web Docs: </b> docs & ressources | <b id="fram">Developpez.com: </b> Forum d'entraides | <b id="fram">Grafikart: </b> tutos/exos/forum/docs </p>
             <br>
           </div>
           <div id="a_masquer4" style="display:none">
             <br>
             <p id="pdiv">Logiciels</p>
-            <p id="psites"><b>Visual Studio Code & SublimText & Notepad++: </b> Editeur de code | <b>Uwamp & XAMPP & WampServer: </b> Serveur en local | 
-            <b>Gitbash: </b> Console en ligne de commande | <b>FileZilla & WinSCP: </b> client FTP | <b>GIMP: </b> editeur d'images | 
-            <b>OracleVM: </b> Logiciel de machine virtuel | <b>Balsamiq & Pencil: </b> Maquettes</p>
+            <p id="psites"><b id="fram">Visual Studio Code & SublimText & Notepad++: </b> Editeur de code | <b id="fram">Uwamp & XAMPP & WampServer: </b> Serveur en local | 
+            <b id="fram">Gitbash: </b> Console en ligne de commande | <b id="fram">FileZilla & WinSCP: </b> client FTP | <b id="fram">GIMP: </b> editeur d'images | 
+            <b id="fram">OracleVM: </b> Logiciel de machine virtuel | <b id="fram">Balsamiq & Pencil: </b> Maquettes</p>
             <br>
           </div>
           <div id="a_masquer5" style="display:none">
             <br>
             <p id="pdiv">S'exercer</p>
-            <p id="psites"><b> Flexboxfroggy: </b> Exos flexbox | <b> CodinGame: </b> Exos avec des jeux | <b> CodeCademy: </b> Exos base des langages | 
-            <b>Code.org: </b> apprendre le code | <b>CodeWars: </b> Appronfondir ses compétences</p>
+            <p id="psites"><b id="fram"> Flexboxfroggy: </b> Exos flexbox | <b id="fram"> CodinGame: </b> Exos avec des jeux | <b id="fram"> CodeCademy: </b> Exos base des langages | 
+            <b id="fram">Code.org: </b> apprendre le code | <b id="fram">CodeWars: </b> Appronfondir ses compétences</p>
             <br>
           </div>
           <div id="containerform">
           <h2 id="h2ressources">Vous souhaitez contribuer à cet page ?</h2>
+          <p id="pcontribu">Envoyez-nous vos ressources dans le formulaire ci-dessous !</p>
             <br>
             <p id="pcontribution">Contribution :</p>
           <div id="form">
@@ -118,10 +119,10 @@ function masquer_div(id)
             </div>
              <div class="row">
               <label class="required" for="message">Description:</label><br />
-              <ion-icon id="iconmessage" name="chatbox-outline"></ion-icon><textarea id="message" name="message" placeholder="Votre message....." rows="7" cols="40" required></textarea><br />
+              <ion-icon id="iconmessage" name="chatbox-outline"></ion-icon><textarea id="message" name="message" placeholder="Votre message....." rows="7" cols="40" ></textarea><br />
             </div>
             <br>
-            <button name="submit" id="envoyer">Envoyer <a href="envoyer.html" target="_blank"></a></button>
+            <button name="submit" id="envoyer"><b>ENVOYER </b><a href="envoyer.html" target="_blank"></a></button>
            </form>
           </div>
           <br>
