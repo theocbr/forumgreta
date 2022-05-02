@@ -260,6 +260,7 @@ hr {
   color: black;
 }
 .card-container {
+  /*  Div qui contient les cartes */
   height: 60vh;
   display: flex;
   align-items: center;
@@ -267,8 +268,8 @@ hr {
   flex-wrap: wrap;
   gap: 4rem;
 }
-/*c'est pour gérer l'affichage des cartes des regions*/
 .card {
+  /* Carte */
   height: 30rem;
   width: 21rem;
   background-color: #e2cfea;
@@ -283,22 +284,27 @@ hr {
 }
 
 .card:hover {
+  /* Carte quand on passe le curseur dessus*/
   transform: scale(1.1);
 }
 
 .card .img-card {
+  /* Image de la carte */
   height: 80%;
   width: 100%;
   border-radius: 5px;
 }
 
 .text-card-container {
+  /* Text dans la Carte */
   display: flex;
   column-gap: 4rem;
   /* justify-content: space-around; */
   margin-bottom: 2rem;
   font-size: large;
   padding: 0 0.5rem;
+}
+#pcardtitre {
 }
 /*  PAGE RESSOURCES **************************************************************** */
 #divbienvenue {
@@ -432,6 +438,7 @@ textarea {
   position: relative;
   left: 28px;
 }
+/*  PAGE DES BLOGS */
 
 /* ================================= 
   RESPONSIVE

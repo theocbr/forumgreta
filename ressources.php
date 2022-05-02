@@ -88,7 +88,7 @@ function masquer_div(id)
             <p id="pdiv">Logiciels</p>
             <p id="psites"><b id="fram">Visual Studio Code & SublimText & Notepad++: </b> Editeur de code | <b id="fram">Uwamp & XAMPP & WampServer: </b> Serveur en local | 
             <b id="fram">Gitbash: </b> Console en ligne de commande | <b id="fram">FileZilla & WinSCP: </b> client FTP | <b id="fram">GIMP: </b> editeur d'images | 
-            <b id="fram">OracleVM: </b> Logiciel de machine virtuel | <b id="fram">Balsamiq & Pencil: </b> Maquettes</p>
+            <b id="fram">OracleVM: </b> Logiciel de machine virtuel | <b id="fram">Balsamiq & Pencil: </b> Maquettes  | <b id="fram"> MySQL WorkBench: </b> BDD</p></p>
             <br>
           </div>
           <div id="a_masquer5" style="display:none">

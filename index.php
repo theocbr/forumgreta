@@ -42,7 +42,9 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <!-- A REMPLACER DANS LE FUTUR -->
       <ul class='card-container'>
       <li class='card'>
+        <img class="img-card" src="./assets/img/boxshadow.PNG">
       <div class='text-card-container'>
+        <p id="pcardtitre">Cours CSS : Box-Shadow</p>
       </li>
       <li class='card'>
       <div class='text-card-container'>

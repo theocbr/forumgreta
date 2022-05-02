@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Shadow</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: monospace;
+      }
+
+      .container {
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 6rem;
+      }
+
+      div .shadow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: xx-large;
+        height: 10rem;
+        width: 50rem;
+        background: gray;
+      }
+
+      .box-shadow1 {
+        box-shadow: 5rem 3rem #d3d3d3;
+      }
+    </style>
+    <code id="code"> .box-shadow1 { box-shadow: 5rem 3rem #d3d3d3; } </code>
+    <br />
+    <style>
+      .box-shadow2 {
+        box-shadow: 3px 3px red, -3px -3px 5px blue;
+      }
+    </style>
+    <br />
+    <code id="code">
+      .box-shadow2 { box-shadow: 3px 3px red, -3px -3px 5px blue; }
+    </code>
+    <style>
+      .text-shadow {
+        text-shadow: 0.2rem 0.2rem 10px white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="shadow box-shadow1 text-shadow">Box-shadow</div>
+      <div class="shadow box-shadow2">Box-shadow 2</div>
+    </div>
+  </body>
+</html>
