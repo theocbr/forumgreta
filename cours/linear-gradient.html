@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Linear Gradient</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+      }
+
+      .linear-gradient {
+        height: 10rem;
+        width: 20rem;
+      }
+
+      .linear-gradient1 {
+        background: linear-gradient(red, orange, yellow, green, blue);
+        background: linear-gradient(
+          red 0%,
+          orange 25%,
+          yellow 50%,
+          green 75%,
+          blue 100%
+        );
+      }
+
+      .linear-gradient2 {
+        background: linear-gradient(red 10%, 30%, blue 90%);
+      }
+
+      .linear-gradient3 {
+        /* background: linear-gradient(120deg, blue, red); */
+        background: linear-gradient(to right top, blue, red);
+      }
+    </style>
+  </head>
+  <body>
+    <code>
+      .linear-gradient { height: 10rem; width: 20rem; } .linear-gradient1 {
+      background: linear-gradient(red, orange, yellow, green, blue); background:
+      linear-gradient( red 0%, orange 25%, yellow 50%, green 75%, blue 100% ); }
+      .linear-gradient2 { background: linear-gradient(red 10%, 30%, blue 90%); }
+      .linear-gradient3 { /* background: linear-gradient(120deg, blue, red); */
+      background: linear-gradient(to right top, blue, red); }</code
+    >
+    <div class="container">
+      <span class="linear-gradient linear-gradient1"></span>
+      <span class="linear-gradient linear-gradient2"></span>
+      <span class="linear-gradient linear-gradient3"></span><br />
+      <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
+    </div>
+  </body>
+</html>

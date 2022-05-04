@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Transitions</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: monospace;
+      }
+
+      .container {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 6rem;
+      }
+
+      .title {
+        margin-bottom: 3rem;
+      }
+
+      .title:hover {
+        font-size: 3rem;
+        border-bottom: 5px solid black;
+        cursor: pointer;
+        /* transition: <propriété> <durée> <fonction de chronométrage> <délai>; */
+        transition: all 2s ease-out 0.2s;
+      }
+
+      .content {
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CODE :</h2>
+    <code>
+      * { box-sizing: border-box; font-family: monospace; } .container { height:
+      100vh; display: flex; flex-direction: column; justify-content: center;
+      align-items: center; row-gap: 6rem; } .title { margin-bottom: 3rem; }
+      .title:hover { font-size: 3rem; border-bottom: 5px solid black; cursor:
+      pointer; transition: all 2s ease-out 0.2s; } .content { width: 50%;
+      }</code
+    >
+    <main class="container">
+      <h1 class="title">Je suis un titre</h1>
+      <p class="content">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis tempore
+        consequuntur corporis nam. Aspernatur, voluptatibus. Reiciendis, rerum?
+        Numquam accusantium quia deserunt amet. Consectetur, ab sequi labore
+        incidunt amet aliquam vitae? Porro, assumenda consectetur veritatis
+        provident ipsa quaerat autem nostrum vero aperiam voluptate labore sint,
+        aliquam quisquam fugit repellat officiis quas veniam quos exercitationem
+        alias eius sequi voluptates pariatur. Velit, consectetur! Officia
+        voluptates deleniti error voluptate, ducimus minima quae nesciunt ab
+        excepturi numquam dolor laboriosam impedit ullam culpa cum beatae sint
+        nulla totam qui consectetur molestias cumque quaerat sed. Eum, ullam.
+      </p>
+      <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
+    </main>
+  </body>
+</html>

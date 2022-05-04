@@ -48,13 +48,19 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
         <a href="./cours/box-shadow.html" id="pcardtitre">Cours CSS : Box-Shadow</a>
       </li>
       <li class='card'>
+      <img class="img-card" src="./assets/img/flex.jpg">
       <div class='text-card-container'>
+      <a href="./cours/flex.html" id="pcardtitre">Cours CSS : FlexBox</a>
       </li>
       <li class='card'>
+      <img class="img-card" src="./assets/img/transition.png">
       <div class='text-card-container'>
+      <a href="./cours/transitions.html" id="pcardtitre">Cours CSS : Transitions</a>
       </li>
       <li class='card'>
+      <img class="img-card" src="./assets/img/lineargradient.PNG">
       <div class='text-card-container'>
+      <a href="./cours/linear-gradient.html" id="pcardtitre">Cours CSS : Linear-Gradient (dégradés)</a>
       </li>
       
       </ul>
