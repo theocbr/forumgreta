@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Linear Gradient</title>
+    <title>Opacity</title>
     <style>
       * {
         box-sizing: border-box;
@@ -25,34 +25,31 @@
       }
 
       .linear-gradient1 {
+        filter: blur(5px);
         background: linear-gradient(red, orange, yellow, green, blue);
-        background: linear-gradient(
-          red 0%,
-          orange 25%,
-          yellow 50%,
-          green 75%,
-          blue 100%
-        );
       }
 
       .linear-gradient2 {
-        background: linear-gradient(red 10%, 30%, blue 90%);
+        filter: opacity(0.4);
+        background: linear-gradient(rgba(255, 0, 0, 0.5) 10%, 30%, blue 90%);
       }
 
       .linear-gradient3 {
-        /* background: linear-gradient(120deg, blue, red); */
-        background: linear-gradient(to right top, blue, red);
+        filter: brightness(50%);
+        background: linear-gradient(120deg, blue, red);
+        background: linear-gradient(to left bottom, blue, red);
       }
     </style>
   </head>
   <body>
-    <code>
-      .linear-gradient { height: 10rem; width: 20rem; } .linear-gradient1 {
-      background: linear-gradient(red, orange, yellow, green, blue); background:
-      linear-gradient( red 0%, orange 25%, yellow 50%, green 75%, blue 100% ); }
-      .linear-gradient2 { background: linear-gradient(red 10%, 30%, blue 90%); }
-      .linear-gradient3 { /* background: linear-gradient(120deg, blue, red); */
-      background: linear-gradient(to right top, blue, red); }</code
+    <code
+      >.linear-gradient { height: 10rem; width: 20rem; } .linear-gradient1 {
+      filter: blur(5px); background: linear-gradient(red, orange, yellow, green,
+      blue); } .linear-gradient2 { filter: opacity(0.4); background:
+      linear-gradient(rgba(255, 0, 0, 0.5) 10%, 30%, blue 90%); }
+      .linear-gradient3 { filter: brightness(50%); background:
+      linear-gradient(120deg, blue, red); background: linear-gradient(to left
+      bottom, blue, red); }</code
     ><br />
     <br />
     <a href="../index.php" id="btnretour">Retour à l'acceuil</a>

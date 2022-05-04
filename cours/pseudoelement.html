@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Les pseudo éléments</title>
+  </head>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    div {
+      height: 10rem;
+      width: calc(40rem + 30rem);
+      margin: auto;
+      background: coral;
+    }
+
+    div::before {
+      background: cornflowerblue;
+      content: "Bonjour";
+    }
+    div::after {
+      background: cornflowerblue;
+      content: "Au revoir";
+    }
+
+    div::first-line {
+      background-color: bisque;
+    }
+
+    div::first-letter {
+      font-size: xx-large;
+    }
+
+    div::selection {
+      color: brown;
+      background-color: aquamarine;
+    }
+  </style>
+  <code>
+    div { height: 10rem; width: calc(40rem + 30rem); margin: auto; background:
+    coral; } div::before { background: cornflowerblue; content: "Bonjour"; }
+    div::after { background: cornflowerblue; content: "Au revoir"; }
+    div::first-line { background-color: bisque; } div::first-letter { font-size:
+    xx-large; } div::selection { color: brown; background-color: aquamarine;
+    }</code
+  >
+  <br />
+  <br />
+  <a href="../index.php" id="btnretour">Retour à l'acceuil</a
+  ><br />
+  <br />
+  <br />
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+      corrupti numquam autem illo laboriosam at, cupiditate reprehenderit quod,
+      neque, possimus minus deserunt itaque consectetur. Error iusto molestiae
+      veritatis culpa aspernatur. Aspernatur ipsum repellat tempora reiciendis
+      placeat molestias? Harum quasi consequatur cum aut pariatur excepturi
+      laudantium id officia quibusdam, voluptatum mollitia. Cupiditate similique
+      obcaecati, eos facere nostrum eaque illo aspernatur tempora. Sint adipisci
+    </div>
+  </body>
+</html>

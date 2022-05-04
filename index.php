@@ -38,7 +38,6 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <br />
       <br />
       <h1 id="h1blog">Blog</h1>
-      <hr>
       <br />
       <!-- A REMPLACER DANS LE FUTUR -->
       <ul class='card-container'>
@@ -62,7 +61,17 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <div class='text-card-container'>
       <a href="./cours/linear-gradient.html" id="pcardtitre">Cours CSS : Linear-Gradient (dégradés)</a>
       </li>
-      
+      <li class='card'>
+      <img class="img-card" src="./assets/img/opacity.PNG">
+      <div class='text-card-container'>
+      <a href="./cours/opacity.html" id="pcardtitre">Cours CSS : Opacity</a>
+      </li>
+      <li class='card'>
+      <img class="img-card" src="./assets/img/pseudoelement.PNG">
+      <div class='text-card-container'>
+      <a href="./cours/pseudoelement.html" id="pcardtitre">Cours CSS : Pseudo Element</a>
+      </li>
+     
       </ul>
       <br>
       <br>
@@ -71,6 +80,17 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <br>
       <br>
       <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br><br>
       <br>
       <br>
       <br>

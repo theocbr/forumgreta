@@ -255,7 +255,9 @@ hr {
 
 #h1blog {
   /* titre blog dans la page index */
-  color: #102b3f;
+  font-weight: bold;
+  color: white;
+  background-color: #102b3f;
 }
 .card-container {
   /*  Div qui contient les cartes */
@@ -402,7 +404,6 @@ hr {
   position: relative;
   margin: 35px auto 0;
   left: 50px;
-  width: 1900px;
 }
 #containerform {
   /*  div qui contient la div du formulaire de contact */
