@@ -52,9 +52,14 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <h1 id="h1blog">Blog</h1>
       <div id="divcours">
       <br />
+      <div id="containerindex">
       <div id="masque1">
           <input type="button" id="btnmasquer" value="Cours CSS" onclick="masquer_div('a_masquercss');" />
           </div>
+          <div id="masque2">
+          <input type="button" id="btnmasquer" value="Autres" onclick="masquer_div('a_masquerautres');" />
+          </div>
+      </div>
           <br/>
           <br />
           <div id="a_masquercss" style="display:none">
@@ -91,6 +96,9 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </li>
       </ul>
       </div>
+      <div id="a_masquerautres" style="display:none">
+    
+    </div>
 </div>
       <!-- A REMPLACER DANS LE FUTUR -->
       <br>

@@ -261,6 +261,11 @@ hr {
 }
 #divcours {
 }
+#containerindex {
+  /*  div qui contient les divs des boutons */
+  display: flex;
+  justify-content: space-evenly;
+}
 .card-container {
   /*  Div qui contient les cartes */
   height: 60vh;
@@ -332,7 +337,7 @@ hr {
 }
 
 #container {
-  /*  div qui contient 3 div */
+  /*  div qui contient les divs des boutons */
   display: flex;
   justify-content: space-evenly;
 }
