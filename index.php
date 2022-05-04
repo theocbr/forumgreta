@@ -10,6 +10,18 @@ include("menu.php");
 
 echo'<i>Vous êtes ici : </i><a id="ici" href ="index.php">Acceuil du forum</a>';
 ?>
+<script>
+function masquer_div(id)
+{
+  if (document.getElementById(id).style.display == 'none') {
+       document.getElementById(id).style.display = 'block';
+  }
+  else {
+       document.getElementById(id).style.display = 'none';
+  }
+  
+}
+</script>
 <!DOCTYPE html>
 <html lang="fr">
   <html>
@@ -38,8 +50,14 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <br />
       <br />
       <h1 id="h1blog">Blog</h1>
+      <div id="divcours">
       <br />
-      <!-- A REMPLACER DANS LE FUTUR -->
+      <div id="masque1">
+          <input type="button" id="btnmasquer" value="Cours CSS" onclick="masquer_div('a_masquercss');" />
+          </div>
+          <br/>
+          <br />
+          <div id="a_masquercss" style="display:none">
       <ul class='card-container'>
       <li class='card'>
         <img class="img-card" src="./assets/img/boxshadow.PNG">
@@ -71,8 +89,10 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <div class='text-card-container'>
       <a href="./cours/pseudoelement.html" id="pcardtitre">Cours CSS : Pseudo Element</a>
       </li>
-     
       </ul>
+      </div>
+</div>
+      <!-- A REMPLACER DANS LE FUTUR -->
       <br>
       <br>
       <br>
