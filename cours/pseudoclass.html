@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo-class</title>
+    <style>
+      .maclasse {
+        background: green;
+        width: 30rem;
+        height: 30rem;
+      }
+
+      option:checked {
+        background: red;
+      }
+
+      a {
+        font-size: xx-large;
+      }
+
+      /* .maclasse:hover {
+          background: coral;
+        } */
+
+      /* selector:pseudo-class {
+
+        } */
+
+      span:nth-child(2) {
+        background: cadetblue;
+      }
+
+      .link:visited {
+        color: chartreuse;
+      }
+
+      .boite {
+        display: inline-block;
+        box-sizing: border-box;
+        text-align: center;
+        background: orange;
+        width: 100px;
+        height: 100px;
+        padding-top: 40px;
+      }
+      .pointer {
+        cursor: pointer;
+      }
+      .wait {
+        cursor: wait;
+      }
+      .zoom-in {
+        cursor: zoom-in;
+      }
+      .grabbing {
+        cursor: grabbing;
+      }
+      .alias {
+        cursor: alias;
+      }
+      .copy {
+        cursor: copy;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="maclasse">
+      <span>Je suis un paragraphe</span>
+      <span>Je suis un paragraphe</span>
+      <span>Je suis un paragraphe</span>
+    </div>
+
+    <a class="link" href="">Je suis un lien</a>
+    <a href="">Je suis un lien</a>
+
+    <select name="pets" id="pet-select">
+      <option value="">--Sélectionnez une option--</option>
+      <option value="dog">Chien</option>
+      <option value="cat">Chat</option>
+      <option value="hamster">Hamster</option>
+    </select>
+
+    <h2>Les curseurs</h2>
+    <div class="boite pointer">Wait</div>
+    <div class="boite wait">Wait</div>
+    <div class="boite zoom-in">Zoom-in</div>
+    <div class="boite grabbing">Grabbing</div>
+    <div class="boite alias">Alias</div>
+    <div class="boite copy">Copy</div>
+    <br />
+    <br />
+    <h2>CODE :</h2>
+    <code>
+      .maclasse { background: green; width: 30rem; height: 30rem; }
+      option:checked { background: red; } a { font-size: xx-large; } /*
+      .maclasse:hover { background: coral; } */ /* selector:pseudo-class { } */
+      span:nth-child(2) { background: cadetblue; } .link:visited { color:
+      chartreuse; } .boite { display: inline-block; box-sizing: border-box;
+      text-align: center; background: orange; width: 100px; height: 100px;
+      padding-top: 40px; } .pointer { cursor: pointer; } .wait { cursor: wait; }
+      .zoom-in { cursor: zoom-in; } .grabbing { cursor: grabbing; } .alias {
+      cursor: alias; } .copy { cursor: copy; }</code
+    ><br />
+    <br />
+    <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
+  </body>
+</html>

@@ -259,11 +259,16 @@ hr {
   color: white;
   background-color: #102b3f;
 }
+#h2options {
+  font-weight: bold;
+  color: #102b3f;
+  text-decoration: underline;
+}
 #divcours {
 }
 #containerindex {
   /*  div qui contient les divs des boutons */
-  display: flex;
+  display: block;
   justify-content: space-evenly;
 }
 .card-container {

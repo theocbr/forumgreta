@@ -51,14 +51,17 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <br />
       <h1 id="h1blog">Blog</h1>
       <div id="divcours">
-      <br />
+      <h2 id="h2options">Options:</h2>
       <div id="containerindex">
-      <div id="masque1">
+          <div id="masque1">
           <input type="button" id="btnmasquer" value="Cours CSS" onclick="masquer_div('a_masquercss');" />
-          </div>
+          </div><br />
           <div id="masque2">
+          <input type="button" id="btnmasquer" value="BDD" onclick="masquer_div('a_masquerbdd');" />
+          </div><br />
+          <div id="masque3">
           <input type="button" id="btnmasquer" value="Autres" onclick="masquer_div('a_masquerautres');" />
-          </div>
+          </div><br />
       </div>
           <br/>
           <br />
@@ -94,9 +97,33 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       <div class='text-card-container'>
       <a href="./cours/pseudoelement.html" id="pcardtitre">Cours CSS : Pseudo Element</a>
       </li>
+      <li class='card'>
+        <img class="img-card" src="./assets/img/pseudoclass.PNG">
+      <div class='text-card-container'>
+        <a href="./cours/pseudoclass.html" id="pcardtitre">Cours CSS : Les pseudos class</a>
+      </li>
+      <li class='card'>
+        <img class="img-card" src="./assets/img/overflow.webp">
+      <div class='text-card-container'>
+        <a href="./cours/overflow.html" id="pcardtitre">Cours CSS : Overflow</a>
+      </li>
       </ul>
       </div>
-      <div id="a_masquerautres" style="display:none">
+      <div id="a_masquerbdd" style="display:none">
+      <ul class='card-container'>
+      <li class='card'>
+        <img class="img-card" src="./assets/img/modelisationbdd.png">
+      <div class='text-card-container'>
+        <a href="./cours/db.pdf" id="pcardtitre">Cours BDD : Modelisation Base de Données</a>
+      </li>
+      <li class='card'>
+        <img class="img-card" src="./assets/img/SQL.png">
+      <div class='text-card-container'>
+        <a href="./cours/sql.pdf" id="pcardtitre">Cours BDD : Les requêtes SQL</a>
+      </li>
+      </ul>
+    </div>
+    <div id="a_masquerautres" style="display:none">
     
     </div>
 </div>
