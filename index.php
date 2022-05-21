@@ -65,7 +65,7 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </div>
           <br/>
           <br />
-          <div id="a_masquercss" style="display:none">
+          <div id="a_masquercss" style="display:none"><!-- DIV QUI Permet d'afficher et masquer la div pour le bouton Cours CSS -->
       <ul class='card-container'>
       <li class='card'>
         <img class="img-card" src="./assets/img/boxshadow.PNG">
@@ -109,7 +109,7 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </li>
       </ul>
       </div>
-      <div id="a_masquerbdd" style="display:none">
+      <div id="a_masquerbdd" style="display:none">  <!-- DIV qui permet d'afficher et masquer la div pour le bouton BDD -->
       <ul class='card-container'>
       <li class='card'>
         <img class="img-card" src="./assets/img/modelisationbdd.png">
@@ -123,8 +123,15 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </li>
       </ul>
     </div>
-    <div id="a_masquerautres" style="display:none">
+    <div id="a_masquerautres" style="display:none"> <!-- DIV qui permet d'afficher et masquer la div pour le bouton BDD -->
     
+    <ul class='card-container'>
+        <li class='card'>
+        <img class="img-card" src="./assets/img/">
+      <div class='text-card-container'>
+        <a href="./cours/pluginsVSC.html" id="pcardtitre">Les plugins utiles pour Visual Studio Code</a>
+      </li>
+      </ul>
     </div>
 </div>
       <!-- A REMPLACER DANS LE FUTUR -->
