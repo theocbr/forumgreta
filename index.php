@@ -41,7 +41,7 @@ Pseudo : <input id="inputco" type="text" name="pseudo" value="<?php if (isset($_
 Mot de passe : <input id="inputco" type="password" name="pass" value="<?php if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass'])); ?>">
 <input type="submit" id="btnconnexion" name="connexion" value="Connexion">
 </form>
-<button id="forminscrire" href="">Vous inscrire</button>
+<button id="forminscrire" onclick="window.open('popupinscr.php','wclose','width=630,height=60,toolbar=si,scroolbar=si,status=si,left=20,right=30');return false;" href="">Vous inscrire</button>
 <?php
 if (isset($erreur)) echo '<br /><br />',$erreur;
 ?>

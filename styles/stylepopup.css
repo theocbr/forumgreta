@@ -1,0 +1,37 @@
+/* FEUILLE DE STYLE POUR LES POPS UP */
+
+/* GENERAL */
+body {
+  background-color: #e2cfea;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/* PAGE POP UP D'INSCRIPTION §§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§§ */
+
+#containerform {
+  /* DIV qui contient la div du formulaire d'inscription */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#forminscription {
+  /* DIV du formulaire d'inscription */
+  width: 39em;
+  height: 250px;
+  color: #102b3f;
+  font-weight: bold;
+}
+#btninscr {
+  /* Bouton d'inscription du formulaire d'inscription à l'espace membre  */
+  color: white;
+  background-color: #a06cd5;
+  height: 21px;
+  border: none;
+}
+#btnconnexion:hover {
+  /* Bouton d'inscription du formulaire d'inscription à l'espace membre quand on passe dessus  */
+  background-color: #e2cfea;
+  transform: scale(0.9);
+  cursor: pointer;
+}
