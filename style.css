@@ -98,6 +98,7 @@ a {
   transition-property: transform;
   transition-duration: 500ms;
   background-color: #e2cfea;
+  cursor: pointer;
 }
 #inlineblock {
   /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */
@@ -238,6 +239,7 @@ hr {
   /* Bouton de connexion du formulaire de connexion à l'espace membre quand on passe dessus  */
   background-color: #e2cfea;
   transform: scale(0.9);
+  cursor: pointer;
 }
 #forminscrire {
   /* Bouton d'inscription sous le formulaire de connexion à l'espace membre */
@@ -253,6 +255,7 @@ hr {
   border-color: white;
   border-width: 2px;
   transform: scale(0.9);
+  cursor: pointer;
 }
 
 #h1blog {
@@ -266,8 +269,7 @@ hr {
   color: #102b3f;
   text-decoration: underline;
 }
-#divcours {
-}
+
 #containerindex {
   /*  div qui contient les divs des boutons */
   display: block;
@@ -385,6 +387,7 @@ hr {
   transition-property: transform;
   transition-duration: 500ms;
   box-shadow: 0 0 1em #e2cfea;
+  cursor: pointer;
 }
 #pdiv {
   /*  titre dans les divs cachés */
@@ -455,6 +458,7 @@ textarea {
   transform: scale(0.9);
   transition-property: transform;
   transition-duration: 400ms;
+  cursor: pointer;
 }
 .required {
   /*  Label du formulaire */

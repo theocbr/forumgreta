@@ -11,6 +11,7 @@ body {
 }
 a {
   list-style: none;
+  color: white;
   text-decoration: none;
 }
 ul {
@@ -90,6 +91,7 @@ ul {
   transition-property: transform;
   transition-duration: 500ms;
   background-color: #e2cfea;
+  cursor: pointer;
 }
 #inlineblock {
   /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */
