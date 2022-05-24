@@ -123,13 +123,13 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </li>
       </ul>
     </div>
-    <div id="a_masquerautres" style="display:none"> <!-- DIV qui permet d'afficher et masquer la div pour le bouton BDD -->
+    <div id="a_masquerautres" style="display:none"> <!-- DIV qui permet d'afficher et masquer la div pour le bouton AUTRES -->
     
     <ul class='card-container'>
         <li class='card'>
-        <img class="img-card" src="./assets/img/">
+        <img class="img-card" src="./assets/img/vscodelogo.png">
       <div class='text-card-container'>
-        <a href="./cours/pluginsVSC.html" id="pcardtitre">Les plugins utiles pour Visual Studio Code</a>
+        <a href="./cours/pluginsVSC.php" id="pcardtitre">Les plugins utiles pour Visual Studio Code</a>
       </li>
       </ul>
     </div>

@@ -1,0 +1,203 @@
+/* GENERAL */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  background-color: white;
+}
+#ici {
+  /*  Message indication dans quel page on se trouve*/
+  color: #a06cd5;
+  font-weight: bold;
+}
+a {
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+
+/* PAGE PLUGINSVSC */
+#titreplugVSC {
+  /*  Titre de la page pluginsvsc  */
+  font-weight: bold;
+  color: #102b3f;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+#containerplugins {
+  /* Container des deux divs suivantes*/
+  width: 100%;
+  overflow: hidden;
+}
+#gaucheplugins {
+  width: 50%;
+  height: 100%;
+  float: left;
+  font-size: large;
+  text-align: left;
+}
+#droiteplugins {
+  width: 50%;
+  height: 100%;
+  float: right;
+  font-size: large;
+  text-align: left;
+}
+#liplugins {
+  color: #a06cd5;
+}
+#lipluginsdescr {
+  font-style: italic;
+  font-weight: normal;
+}
+/* FOOTER */
+#footer {
+  /*  PIED DE PAGE SANS COPYRIGHT */
+  background-color: #102b3f;
+  position: relative;
+  color: white;
+}
+#foot {
+  /*  PIED DE PAGE COMPLET */
+  background-color: #102b3f;
+  position: relative;
+}
+#footnav {
+  /* balise <ul> du menu de navigation  dans le footer */
+  margin-top: 5px;
+  position: relative;
+  left: 7%;
+}
+#search {
+  /* div de l'element de recherche dans le footer */
+  position: relative;
+  right: 5%;
+}
+#btnrechercher {
+  /*  Bouton rechercher de l'element search dans le footer */
+  width: 112px;
+  height: 57px;
+  background-color: #a06cd5;
+  color: white;
+  position: relative;
+  top: 7px;
+}
+#btnrechercher:hover {
+  /*  Bouton rechercher de l'element search dans le footer quand on passe dessus*/
+  transform: scale(1.1);
+  transition-property: transform;
+  transition-duration: 500ms;
+  background-color: #e2cfea;
+}
+#inlineblock {
+  /* permet de mettre le menunav,les options et les reseaux sur la meme ligne dans le footer  */
+  display: flex;
+  justify-content: space-between;
+}
+#iconfootlkdn {
+  /* ICON linkedin dans le footer */
+  font-size: 25px;
+  color: #0e76a8;
+}
+#iconfootlkdn:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: white;
+}
+#iconfootgithub {
+  /* ICON github dans le footer */
+  font-size: 25px;
+}
+#iconfootgithub:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: black;
+}
+#iconfootweb {
+  /* ICON github dans le footer */
+  font-size: 25px;
+  color: black;
+}
+#iconfootweb:hover {
+  /* ICON github dans le footer quand le curseur passe dessus */
+  transform: scale(1.3);
+  transition-property: transform;
+  transition-duration: 500ms;
+  color: white;
+}
+#iconfootsearch {
+  /* ICON github dans le footer */
+  font-size: 58px;
+  color: #a06cd5;
+  position: relative;
+  right: 6%;
+  top: 11%;
+}
+#iconfootclick {
+  /* ICON click dans le footer */
+  font-size: 28px;
+  color: white;
+  position: relative;
+}
+#iconfootclick:hover {
+  /* ICON click dans le footer  quand on passe dessus*/
+
+  color: #a06cd5;
+}
+#iconmail {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  right: 0%;
+}
+#iconarrow {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  right: 0%;
+}
+#iconmessage {
+  /* ICON github dans le footer */
+  font-size: 28px;
+  color: #a06cd5;
+  position: relative;
+  bottom: 164px;
+}
+#prenomfoot {
+  /*  PRENOM dans le footer */
+  font-size: 18px;
+  text-decoration: underline;
+}
+#copyright {
+  /*  COPYRIGHT PIED DE PAGE */
+  text-align: center;
+  background-color: #102b3f;
+  color: white;
+}
+#labelmenufoot {
+  /* LABEL dans le FOOTER */
+  letter-spacing: 1px;
+  color: #a06cd5;
+  font-size: 29px;
+  font-weight: bold;
+}
+#lifoot {
+  /*  balise <li> dans le footer */
+  font-size: 22px;
+}
+a:hover {
+  border: none;
+  overflow: visible;
+  color: #e2cfea;
+}
+hr {
+  color: #a06cd5;
+}
