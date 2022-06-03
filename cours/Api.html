@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <title>API</title>
+    <style>
+        
+.api{
+    display: flex;
+    justify-content: center;
+}
+
+.appel{
+    display: flex;
+    justify-content: center;
+}
+.contentcode{
+
+
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+#code{
+
+    border :solid 3px black ;
+    box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+    border-radius: 20px 20px 20px 20px;
+    height: 110px;
+    width: 450px;
+    background-color: gray;
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+
+#deffetch{
+
+    margin-top: 40px;
+}
+
+#code1{
+    border :solid 3px black ;
+    box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+    border-radius: 20px 20px 20px 20px;
+    height: 110px;
+    width: 450px;
+    background-color: gray;
+    margin-top: 50px;
+    text-decoration: none;
+    
+}
+
+    </style>
+</head>
+<body>
+
+ <div class="api">  <h1>API</h1> </div>
+
+     
+    <div> 
+            <p>Une Api appelée aussi en francais  une interface de programmation,  est
+            une solution informatique qui permet à des applications de communiquer entre elles
+            et de s'échanger mutuellement des services ou des données.</p>
+    </div>
+    <div class="appel"><h3>Appel API</h3></div>
+    <br>
+    <p>Pour appeler un appeler un API on utilise le plus souvent la méthode FETCH.</p>
+    <div > 
+        <form class="contentcode">  
+            <textarea name="" id="code" cols="30" rows="10" value="lol" >
+
+            const url = 'Url'
+            fetch(url)
+                .then(response => response.json())
+                .then(response => console.log(response))
+                .catch(err => console.error(err))
+            </textarea>
+      </form>
+      
+      <div id="deffetch"><p>Ici, on appel L'API, on reçoit une réponse en format Json. Cette réponse 
+        s'affiche sur la "Console.log pour voir les données
+         sous la forme d'un tableau.</p></div>
+
+        <div>Pour Afficher les données récoltées sur une page HTML. </div>
+
+
+<form class="contentcode">  
+            <textarea name="" id="code1" cols="30" rows="10" value="lol" >
+                const root = document.querySelector(".root")
+
+                const displayData = (array) => {
+                root.innerHTML  = array.map(
+                (score)=>(score.title))}
+
+            </textarea>
+      </form>
+
+
+    </div>
+    </div>
+</body>
+</html>

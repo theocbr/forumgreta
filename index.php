@@ -62,6 +62,9 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
           <div id="masque3">
           <input type="button" id="btnmasquer" value="Autres" onclick="masquer_div('a_masquerautres');" />
           </div><br />
+          <div id="masque4">
+          <input type="button" id="btnmasquer" value="JavaSript" onclick="masquer_div('a_masquerjs');" />
+          </div><br />
       </div>
           <br/>
           <br />
@@ -133,6 +136,24 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
       </li>
       </ul>
     </div>
+
+    <div>
+    <div id="a_masquerjs" style="display:none"> <!-- DIV qui permet d'afficher et masquer la div pour le bouton JS -->
+    
+    <ul class='card-container'>
+        <li class='card'>
+        <img class="img-card" src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654168147/crousty/forum-greta%20/Api_esumqm.jpg">
+      <div class='text-card-container'>
+        <a href="./cours/Api.html" id="pcardtitre">La méthode API</a>
+      </li>
+      <li class='card'>
+        <img class="img-card" src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654169921/crousty/forum-greta%20/addevent_rb4dwx.jpg">
+      <div class='text-card-container'>
+        <a href="./cours/addeventlistener.html" id="pcardtitre">Addeventlistener</a>
+      </li>
+      </ul>
+    </div>
+
 </div>
       <!-- A REMPLACER DANS LE FUTUR -->
       <br>

@@ -203,3 +203,53 @@ a:hover {
 hr {
   color: #a06cd5;
 }
+
+
+/* API */
+
+.api{
+  display: flex;
+  justify-content: center;
+}
+
+.appel{
+  display: flex;
+  justify-content: center;
+}
+.contentcode{
+
+
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+#code{
+
+  border :solid 3px black ;
+  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  border-radius: 20px 20px 20px 20px;
+  height: 110px;
+  width: 450px;
+  background-color: gray;
+  margin-top: 50px;
+  text-decoration: none;
+  
+}
+
+#deffetch{
+
+  margin-top: 40px;
+}
+
+#code1{
+  border :solid 3px black ;
+  box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+  border-radius: 20px 20px 20px 20px;
+  height: 110px;
+  width: 450px;
+  background-color: gray;
+  margin-top: 50px;
+  text-decoration: none;
+  
+}
+
