@@ -1,9 +1,9 @@
 <?php 
     session_start();
-    require_once 'config.php'; // ajout connexion bdd 
+    require_once 'espacemembre/config.php'; // ajout connexion bdd 
    // si la session existe pas soit si l'on est pas connecté on redirige
     if(!isset($_SESSION['user'])){
-        header('Location:../index.php');
+        header('Location:index.php');
         die();
     }
 
@@ -41,7 +41,7 @@
                 <div class="text-center">
                         <h1 class="p-5">Bonjour <?php echo $data['pseudo']; ?> !</h1>
                         <hr />
-                        <a href="deconnexion.php" class="btn btn-danger btn-lg">Déconnexion</a>
+                        <a href="espacemembre/deconnexion.php" class="btn btn-danger btn-lg">Déconnexion</a>
                         <!-- Button trigger modal -->
                         <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#change_password">
                           Changer mon mot de passe

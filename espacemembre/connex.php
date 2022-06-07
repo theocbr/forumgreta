@@ -29,7 +29,7 @@
                 {
                     // On créer la session et on redirige sur landing.php
                     $_SESSION['user'];
-                    header('Location: landing.php');
+                    header('Location: ../landing.php');
                     die();
                 }else{ header('Location: ../index.php?login_err=password'); die(); }
             }else{ header('Location: ../index.php?login_err=email'); die(); }
