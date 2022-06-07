@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <title>AddEventlistener</title>
+    <style>
+      .testdiv {
+  height: auto;
+  width: auto;
+  background-color: red;
+  height: 100px;
+  width: 100px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+}
+
+.green {
+  background-color: green;
+}
+
+/* autre */
+
+body{
+    
+  }
+  
+  .api{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .appel{
+      display: flex;
+      justify-content: center;
+  }
+  .contentcode{
+  
+  
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+  }
+  #code{
+  
+      border :solid 3px black ;
+      box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+      border-radius: 20px 20px 20px 20px;
+      height: 110px;
+      width: 450px;
+      background-color: gray;
+      margin-top: 50px;
+      text-decoration: none;
+      color : white;
+      
+  }
+  
+  #deffetch{
+  
+      margin-top: 40px;
+  }
+  
+  #code1{
+      border :solid 3px black ;
+      box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+      border-radius: 20px 20px 20px 20px;
+      height: 110px;
+      width: 450px;
+      background-color: gray;
+      margin-top: 50px;
+      text-decoration: none;
+      color : white;
+  }
+  
+  .cube{
+    display: flex;
+    justify-content: center;
+  }
+  
+
+
+    </style>
+</head>
+<body>
+
+ <div class="api">  <h1>AddEventlistener</h1> </div>
+
+     
+    <div> 
+            <p>Le AddEventlistener est une méthode qui attache 
+                une fonction à appeler chaque fois que l'évènement 
+                spécifié est envoyé à la cible. </p>
+    </div>
+    <div class="appel"><h3>Utilisation de  AddEventlistener</h3></div>
+    <br>
+    <p>Par exemple ici on va declencher le changement de classe a une div.</p>
+    <div class="cube">
+        <div><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654102711/crousty/toogle/redcube_w28nyi.jpg " alt=" red cube"></div>
+        <div><img src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654102708/crousty/toogle/greecube_kd8kyi.jpg" alt="green cube"></div>
+    </div>
+    <div>
+        <div class="content">
+            <div class="testdiv"></div>
+    
+        </div>
+    
+        <div class="contentbtn">
+            <button class="btn">test</button>
+        </div>
+    
+    </div>
+    <div > 
+        <form class="contentcode">  
+            <textarea name="" id="code" cols="30" rows="10" value="lol" >
+                const content = document.querySelector(".testdiv");
+                const bouton = document.querySelector(".btn");
+                
+                const btnclick = () => {
+                  content.classList.toggle("green");
+                };
+                
+                bouton.addEventListener("click", btnclick);
+            </textarea>
+      </form>
+      
+      <div id="deffetch"><p>
+        </p> Ici on fait en sorte que la classe change.</div>
+
+        <div> </div>
+
+
+<form class="contentcode">  
+            <textarea name="" id="code1" cols="30" rows="10" value="lol" >
+                
+                .testdiv {
+                    height: auto;
+                    width: auto;
+                    background-color: red;
+                    height: 100px;
+                    width: 100px;
+                  }
+                  
+                  .content {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  }
+                  
+                  .contentbtn {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top: 20px;
+                  }
+                  
+                  .btn {
+                    width: 100px;
+                    height: 50px;
+                  }
+                  
+                  .green {
+                    background-color: green;
+                  }   
+               
+            </textarea>
+      </form>
+
+
+    </div>
+    </div>
+    <script>
+    const content = document.querySelector(".testdiv");
+      const bouton = document.querySelector(".btn");
+      
+      const btnclick = () => {
+        content.classList.toggle("green");
+      };
+      
+      bouton.addEventListener("click", btnclick);
+      </script>
+</body>
+</html>

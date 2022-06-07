@@ -468,6 +468,11 @@ textarea {
   position: relative;
   left: 28px;
 }
+
+.form {
+  display: flex;
+  justify-content: center;
+}
 /*  PAGE DES BLOGS */
 
 /* ================================= 

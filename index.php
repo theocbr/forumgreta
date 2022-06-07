@@ -30,21 +30,51 @@ function masquer_div(id)
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <LINK rel="stylesheet" type="text/css" href="style.css">
-      <title>FORUM</title>
+      <title>Acceuil</title>
     </head>
       <body>
         <br>
         <div id="formdiv">
+        <?php 
+                if(isset($_GET['login_err']))
+                {
+                    $err = htmlspecialchars($_GET['login_err']);
+
+                    switch($err)
+                    {
+                        case 'password':
+                        ?>
+                            <div class="alert alert-danger">
+                                <strong>Erreur</strong> mot de passe incorrect
+                            </div>
+                        <?php
+                        break;
+
+                        case 'email':
+                        ?>
+                            <div class="alert alert-danger">
+                                <strong>Erreur</strong> email incorrect
+                            </div>
+                        <?php
+                        break;
+
+                        case 'already':
+                        ?>
+                            <div class="alert alert-danger">
+                                <strong>Erreur</strong> compte non existant
+                            </div>
+                        <?php
+                        break;
+                    }
+                }
+                ?> 
       <p id="titreform">Connexion à l'espace membre :</p>
-<form action="index.php" method="post">
-Pseudo : <input id="inputco" type="text" name="pseudo" value="<?php if (isset($_POST['pseudo'])) echo htmlentities(trim($_POST['pseudo'])); ?>">
-Mot de passe : <input id="inputco" type="password" name="pass" value="<?php if (isset($_POST['pass'])) echo htmlentities(trim($_POST['pass'])); ?>">
+<form action="espacemembre/connex.php" method="post">
+<input id="inputco" type="email" name="email" class="form-control" placeholder="Email" required="required" autocomplete="off">
+<input id="inputco" type="password" name="password" autocomplete="off" placeholder="Mot de passe" required>
 <input type="submit" id="btnconnexion" name="connexion" value="Connexion">
 </form>
-<button id="forminscrire" onclick="window.open('popupinscr.php','wclose','width=630,height=60,toolbar=si,scroolbar=si,status=si,left=20,right=30');return false;" href="">Vous inscrire</button>
-<?php
-if (isset($erreur)) echo '<br /><br />',$erreur;
-?>
+<button id="forminscrire" onclick="window.open('espacemembre/popupinscr.php','wclose','width=630,height=60,directories=no,location=no,menubar=no,toolbar=no,scroolbar=no,status=no,left=20,right=30');return false;" href="">Vous inscrire</button>
 </div>
 
       <br />
@@ -61,6 +91,9 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
           </div><br />
           <div id="masque3">
           <input type="button" id="btnmasquer" value="Autres" onclick="masquer_div('a_masquerautres');" />
+          </div><br />
+          <div id="masque4">
+          <input type="button" id="btnmasquer" value="JavaSript" onclick="masquer_div('a_masquerjs');" />
           </div><br />
       </div>
           <br/>
@@ -130,6 +163,21 @@ if (isset($erreur)) echo '<br /><br />',$erreur;
         <img class="img-card" src="./assets/img/vscodelogo.png">
       <div class='text-card-container'>
         <a href="./cours/pluginsVSC.php" id="pcardtitre">Les plugins utiles pour Visual Studio Code</a>
+      </li>
+      </ul>
+    </div>
+    <div id="a_masquerjs" style="display:none"> <!-- DIV qui permet d'afficher et masquer la div pour le bouton JS -->
+    
+    <ul class='card-container'>
+        <li class='card'>
+        <img class="img-card" src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654168147/crousty/forum-greta%20/Api_esumqm.jpg">
+      <div class='text-card-container'>
+        <a href="./cours/Api.html" id="pcardtitre">La méthode API</a>
+      </li>
+      <li class='card'>
+        <img class="img-card" src="https://res.cloudinary.com/dsx6152nt/image/upload/v1654169921/crousty/forum-greta%20/addevent_rb4dwx.jpg">
+      <div class='text-card-container'>
+        <a href="./cours/addeventlistener.html" id="pcardtitre">Addeventlistener</a>
       </li>
       </ul>
     </div>
