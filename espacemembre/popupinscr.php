@@ -16,7 +16,7 @@
              switch($err) {
                         case 'success':
                         ?>
-                            <div class="alert alert-success">
+                            <div class="alert">
                                 <strong>Succès</strong> inscription réussie !
                             </div>
                         <?php
@@ -24,7 +24,7 @@
 
                         case 'password':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> mot de passe différent
                             </div>
                         <?php
@@ -32,7 +32,7 @@
 
                         case 'email':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> email non valide
                             </div>
                         <?php
@@ -40,7 +40,7 @@
 
                         case 'email_length':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> email trop long
                             </div>
                         <?php 
@@ -48,13 +48,13 @@
 
                         case 'pseudo_length':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> pseudo trop long
                             </div>
                         <?php 
                         case 'already':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> compte deja existant
                             </div>
                         <?php 

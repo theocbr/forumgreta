@@ -229,7 +229,11 @@ hr {
   width: 180px;
   height: 40px;
 }
-
+.alert {
+  /* div des messages d'erreur lors de la connexion et de l'inscription */
+  color: red;
+  font-weight: bold;
+}
 #btnconnexion {
   /* Bouton de connexion du formulaire de connexion à l'espace membre  */
   color: white;

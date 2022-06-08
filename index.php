@@ -1,6 +1,4 @@
 <?php
-//Cette fonction doit être appelée avant tout code html
-session_start();
 
 //On donne ensuite un titre à la page, puis on appelle notre fichier debut.php
 $titre = "Index du forum";
@@ -44,7 +42,7 @@ function masquer_div(id)
                     {
                         case 'password':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> mot de passe incorrect
                             </div>
                         <?php
@@ -52,7 +50,7 @@ function masquer_div(id)
 
                         case 'email':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> email incorrect
                             </div>
                         <?php
@@ -60,7 +58,7 @@ function masquer_div(id)
 
                         case 'already':
                         ?>
-                            <div class="alert alert-danger">
+                            <div class="alert">
                                 <strong>Erreur</strong> compte non existant
                             </div>
                         <?php
