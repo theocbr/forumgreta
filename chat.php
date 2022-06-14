@@ -39,8 +39,7 @@ echo'<i>Vous êtes ici : </i><a id="ici" href ="chat.php">Chat en ligne</a>';
             <ul class="foot-nav">
             <label id="labelmenufoot">OPTIONS</label><br />
             <br>
-              <li id="lifoot"><a href="">Inscription</a></li><br/>
-              <li id="lifoot"><a href="">Connexion</a></li><br />
+              <li id="lifoot"><a href="espacemembre/popupinscr.php">Inscription</a></li><br/>
               <li id="lifoot"><a href="">Mon profil</a></li>
             </ul>
             </div>
