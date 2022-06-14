@@ -39,6 +39,21 @@
         overflow: auto;
         /* position: absolute; */
       }
+      .contentcode {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+      }
+      #code {
+        border: solid 3px black;
+        box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+        border-radius: 20px 20px 20px 20px;
+        height: 110px;
+        width: 450px;
+        background-color: gray;
+        margin-top: 50px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
@@ -161,15 +176,16 @@
     </div>
     <br />
     <h2>CODE :</h2>
-    <br />
-    <code>
-      .z-index-1 { background: coral; height: 5%; z-index: -1; /* position:
-      absolute; */ } .z-index0 { background: cadetblue; height: 5%; z-index: 0;
-      /* position: absolute; */ display: none; /* visibility: hidden; */ }
-      .z-index1 { background: cornsilk; height: 5%; z-index: 1; /* position:
-      absolute; */ } .z-index100 { background: cyan; height: 10%; z-index: 100;
-      overflow: auto; /* position: absolute; */ }</code
-    ><br />
+    <form class="contentcode">
+      <textarea name="" id="code" cols="30" rows="10" value="lol">
+        .z-index-1 { background: coral; height: 5%; z-index: -1; /* position:
+          absolute; */ } .z-index0 { background: cadetblue; height: 5%; z-index: 0;
+          /* position: absolute; */ display: none; /* visibility: hidden; */ }
+          .z-index1 { background: cornsilk; height: 5%; z-index: 1; /* position:
+          absolute; */ } .z-index100 { background: cyan; height: 10%; z-index: 100;
+          overflow: auto; /* position: absolute; */ }
+      </textarea>
+    </form>
     <br />
     <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
   </body>

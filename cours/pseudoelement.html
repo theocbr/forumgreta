@@ -39,20 +39,36 @@
       color: brown;
       background-color: aquamarine;
     }
+    .contentcode {
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+    }
+    #code {
+      border: solid 3px black;
+      box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+      border-radius: 20px 20px 20px 20px;
+      height: 110px;
+      width: 450px;
+      background-color: gray;
+      margin-top: 50px;
+      text-decoration: none;
+    }
   </style>
   <h2>CODE :</h2>
-  <code>
-    div { height: 10rem; width: calc(40rem + 30rem); margin: auto; background:
-    coral; } div::before { background: cornflowerblue; content: "Bonjour"; }
-    div::after { background: cornflowerblue; content: "Au revoir"; }
-    div::first-line { background-color: bisque; } div::first-letter { font-size:
-    xx-large; } div::selection { color: brown; background-color: aquamarine;
-    }</code
-  >
+  <form class="contentcode">
+    <textarea name="" id="code" cols="30" rows="10" value="lol">
+      div { height: 10rem; width: calc(40rem + 30rem); margin: auto; background:
+        coral; } div::before { background: cornflowerblue; content: "Bonjour"; }
+        div::after { background: cornflowerblue; content: "Au revoir"; }
+        div::first-line { background-color: bisque; } div::first-letter { font-size:
+        xx-large; } div::selection { color: brown; background-color: aquamarine;
+        }
+    </textarea>
+  </form>
   <br />
+  <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
   <br />
-  <a href="../index.php" id="btnretour">Retour à l'acceuil</a
-  ><br />
   <br />
   <br />
   <body>

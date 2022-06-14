@@ -35,18 +35,46 @@
       .content {
         width: 50%;
       }
+      .contentcode {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+      }
+      #code {
+        border: solid 3px black;
+        box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+        border-radius: 20px 20px 20px 20px;
+        height: 110px;
+        width: 450px;
+        background-color: gray;
+        margin-top: 50px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <h2>CODE :</h2>
-    <code>
-      * { box-sizing: border-box; font-family: monospace; } .container { height:
-      100vh; display: flex; flex-direction: column; justify-content: center;
-      align-items: center; row-gap: 6rem; } .title { margin-bottom: 3rem; }
-      .title:hover { font-size: 3rem; border-bottom: 5px solid black; cursor:
-      pointer; transition: all 2s ease-out 0.2s; } .content { width: 50%;
-      }</code
-    ><br />
+    <form class="contentcode">
+      <textarea name="" id="code" cols="30" rows="10" value="lol">
+        * { box-sizing: 
+          border-box; font-family: monospace; 
+        } 
+        .container { 
+          height:
+          100vh; display: flex; flex-direction: column; justify-content: center;
+          align-items: center; row-gap: 6rem; 
+        } 
+        .title {
+           margin-bottom: 3rem; 
+          }
+          .title:hover {
+             font-size: 3rem; border-bottom: 5px solid black; cursor:
+          pointer; transition: all 2s ease-out 0.2s;
+         } .content { 
+           width: 50%;
+          }
+      </textarea>
+    </form>
     <br />
     <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
     <main class="container">

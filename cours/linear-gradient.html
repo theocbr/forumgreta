@@ -43,19 +43,39 @@
         /* background: linear-gradient(120deg, blue, red); */
         background: linear-gradient(to right top, blue, red);
       }
+      .contentcode {
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+      }
+      #code {
+        border: solid 3px black;
+        box-shadow: 5px 5px 0.6em black, -5px -5px 0.6em black;
+        border-radius: 20px 20px 20px 20px;
+        height: 110px;
+        width: 450px;
+        background-color: gray;
+        margin-top: 50px;
+        text-decoration: none;
+      }
     </style>
   </head>
   <body>
     <h2>CODE :</h2>
-    <br />
-    <code>
-      .linear-gradient { height: 10rem; width: 20rem; } .linear-gradient1 {
-      background: linear-gradient(red, orange, yellow, green, blue); background:
-      linear-gradient( red 0%, orange 25%, yellow 50%, green 75%, blue 100% ); }
-      .linear-gradient2 { background: linear-gradient(red 10%, 30%, blue 90%); }
-      .linear-gradient3 { /* background: linear-gradient(120deg, blue, red); */
-      background: linear-gradient(to right top, blue, red); }</code
-    ><br />
+    <form class="contentcode">
+      <textarea name="" id="code" cols="30" rows="10" value="lol">
+        .linear-gradient {
+           height: 10rem; width: 20rem; } .linear-gradient1 {
+        
+          background: linear-gradient(red, orange, yellow, green, blue); background:
+          linear-gradient( red 0%, orange 25%, yellow 50%, green 75%, blue 100% ); }
+          .linear-gradient2 {
+             background: linear-gradient(red 10%, 30%, blue 90%); }
+          .linear-gradient3 {
+             /* background: linear-gradient(120deg, blue, red); */
+          background: linear-gradient(to right top, blue, red); }
+      </textarea>
+    </form>
     <br />
     <a href="../index.php" id="btnretour">Retour à l'acceuil</a>
     <div class="container">
@@ -64,46 +84,4 @@
       <span class="linear-gradient linear-gradient3"></span><br />
     </div>
   </body>
-  <div id="foot">
-    <div id="footer">
-      <br>
-      <br><div id="inlineblock">
-      <ul id="footnav" class="foot-nav">
-        <label id="labelmenufoot">MENU DE NAVIGATION</label><br />
-        <br>
-        <li id="lifoot"><a href="index.php">Acceuil</a></li><br />
-        <li id="lifoot"><a href="ressources.php">Ressources</a></li><br />
-        <li id="lifoot"><a href="chat.php">Chat</a></li>
-      </ul>
-      <div id="options">
-      <ul class="foot-nav">
-      <label id="labelmenufoot">OPTIONS</label><br />
-      <br>
-        <li id="lifoot"><a href="">Inscription</a></li><br/>
-        <li id="lifoot"><a href="">Connexion</a></li><br />
-        <li id="lifoot"><a href="">Mon profil</a></li>
-      </ul>
-      </div>
-      <div id="reseaux">
-      <ul class="foot-nav">
-      <label id="labelmenufoot">Réseaux</label>
-      <li><p id="prenomfoot">Théo : </p><a href="https://github.com/theocbr"><ion-icon id="iconfootgithub" name="logo-github"></ion-icon> &nbsp </a><a href="https://my.indeed.com/resume?hl=fr&co=FR&from=gnav-homepage"><ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon>&nbsp&nbsp</a><a href="https://basicforcsgo.com/"><ion-icon id="iconfootweb" name="globe-outline"></ion-icon>&nbsp</a></li>
-        <li><p id="prenomfoot">Stanislas :</p><a href="https://github.com/Smithleystan"> <ion-icon id="iconfootgithub" name="logo-github"></ion-icon> &nbsp</a><a href=""><ion-icon id="iconfootlkdn" name="logo-linkedin"></ion-icon>&nbsp&nbsp</a><a href=""><ion-icon id="iconfootweb" name="globe-outline"></ion-icon>&nbsp</a></li>
-      </ul>
-      </div>
-      <div id="search">
-      <br>
-      <ion-icon id="iconfootsearch" name="search-circle-outline"></ion-icon><input type="search" id="search" placeholder="Search...." required><button id="btnrechercher" ><ion-icon id="iconfootclick" name="navigate-outline"></ion-icon></button>
-      </div>
-      </div>
-      <br>
-      <br>
-    </div>
-    <hr>
-    <p id="copyright">Copyright © - 2022 All rights reserved By Théo & Stanislas </p>
-    <br>
-    </div>
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  </body>
-  </html>
+</html>
