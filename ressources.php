@@ -72,8 +72,8 @@ function masquer_div(id)
             <p id="psites"><b id="fram">Codepen: </b> Librairies communautaires | <b id="fram">Cssgradient: </b> Générateur de couleur | <b id="fram">uiGradient: </b> Générateur de dégradés de couleurs 
           | <b id="fram">Coolors: </b> Générateur de combinaison de couleurs | <b id="fram">Unsplash & Pexels: </b> Librairie de photos libre de droit </p>
             <p id="psites"><b id="fram">Compressor: </b> Compresseur d'images | <b id="fram">gtmetrix: </b> Test la vitesse chargement d'un site | 
-            <b id="fram">fonts.google: </b> Librairie de polices d'écriture | <b id="fram">Ionic.io: </b> Librairie d'icons | <b id="fram">Photopea: </b> Redimensionner des photos | 
-            <b id="fram">Figma: </b> Maquette </p>
+            <b id="fram">fonts.google: </b> Librairie de polices d'écriture | <b id="fram">Ionic.io: </b> Librairie d'icons | <b id="fram">Photopea: </b> Redimensionner des photos | </p>
+            <p id="psites"><b id="fram">Figma: </b> Maquette | <b id="fram">sitecheck.sucuri.net: </b> Vérifier la sécurité de son site </p>
             <br>
           </div>
           <div id="a_masquer3" style="display:none">
