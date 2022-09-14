@@ -21,7 +21,7 @@ function masquer_div(id)
 }
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '{your-app-id}',
+      appId      : '1050432655642426',
       cookie     : true,
       xfbml      : true,
       version    : '{api-version}'
