@@ -18,6 +18,7 @@ function masquer_div(id)
        document.getElementById(id).style.display = 'none';
   }
   
+  
 }
   window.fbAsyncInit = function() {
     FB.init({
