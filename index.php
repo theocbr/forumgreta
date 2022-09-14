@@ -38,12 +38,34 @@ function masquer_div(id)
      js.src = "https://connect.facebook.net/en_US/sdk.js";
      fjs.parentNode.insertBefore(js, fjs);
    }(document, 'script', 'facebook-jssdk'));
+
+FB.getLoginStatus(function(response) {
+  statusChangeCallBack(response);
+});
+
+function checkLoginState() {
+  FB.getLoginStatus(function(response) {
+    statusChangeCallback(response);
+  });
+}
+FB.getLoginStatus(function(response) {
+  if (response.status === 'connected') {
+    console.log(response.authResponse.accessToken);
+  }
+});
+
 </script>
+
+
+
+
 
 <!DOCTYPE html>
 <html lang="fr">
   <html>
     <head>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v14.0&appId=1050432655642426&autoLogAppEvents=1" nonce="PSehX4Bz"></script>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -87,12 +109,12 @@ function masquer_div(id)
                 }
                 ?> 
       <p id="titreform">Connexion à l'espace membre :</p>
+      <fb:login-button 
+  scope="public_profile,email"
+  onlogin="checkLoginState();">
+</fb:login-button>
 <form action="espacemembre/connex.php" method="post">
-<input id="inputco" type="email" name="email" class="form-control" placeholder="Email" required="required" autocomplete="off">
-<input id="inputco" type="password" name="password" autocomplete="off" placeholder="Mot de passe" required>
-<input type="submit" id="btnconnexion" name="connexion" value="Connexion">
 </form>
-<button id="forminscrire" onclick="window.open('espacemembre/popupinscr.php','wclose','width=630,height=60,directories=no,location=no,menubar=no,toolbar=no,scroolbar=no,status=no,left=20,right=30');return false;" href="">Vous inscrire</button>
 </div>
 
       <br />
